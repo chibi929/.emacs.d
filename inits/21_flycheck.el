@@ -1,5 +1,5 @@
 ;;==============================
-;; Pallet
+;; Flycheck
 ;;==============================
 
-(pallet-mode t)
+(global-flycheck-mode t)
