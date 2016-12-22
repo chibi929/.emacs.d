@@ -49,3 +49,4 @@ flycheck_*.el
 
 # End of https://www.gitignore.io/api/emacs
 ac-comphist.dat
+99_*.el
