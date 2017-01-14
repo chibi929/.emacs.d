@@ -35,6 +35,7 @@
 (depends-on "smartparens")
 (depends-on "smex")
 (depends-on "sudo-edit")
+(depends-on "switch-window")
 (depends-on "tide")
 (depends-on "typescript-mode")
 (depends-on "use-package")
