@@ -12,6 +12,7 @@
 (depends-on "exec-path-from-shell")
 (depends-on "expand-region")
 (depends-on "f")
+(depends-on "fill-column-indicator")
 (depends-on "flycheck")
 (depends-on "flycheck-cask")
 (depends-on "gitignore-mode")
