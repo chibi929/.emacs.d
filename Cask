@@ -22,6 +22,7 @@
 (depends-on "idle-highlight-mode")
 (depends-on "init-loader")
 (depends-on "js2-mode")
+(depends-on "json-mode")
 (depends-on "magit")
 (depends-on "multiple-cursors")
 (depends-on "nyan-mode")
