@@ -6,6 +6,9 @@
 ;; テーマ
 (load-theme 'wombat)
 
+;; 起動時最大化
+(set-frame-parameter nil 'fullscreen 'fullboth)
+
 ;; メニューバーを消す
 (menu-bar-mode 0)
 
