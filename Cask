@@ -3,6 +3,7 @@
 (source gnu)
 (source melpa)
 
+(depends-on "ac-html")
 (depends-on "auto-complete")
 (depends-on "bind-key")
 (depends-on "cask")

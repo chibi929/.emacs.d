@@ -10,3 +10,4 @@
   (delete-trailing-whitespace)
   (point-undo)
   )
+(define-key global-map (kbd "C-l") 'auto-reformat)
