@@ -1,24 +1,11 @@
 ;;==============================
-;; auto-complete
-;;==============================
-
-(require 'auto-complete-config)
-;; よくわからない
-(ac-config-default)
-;; TABキーで自動補完を有効にする
-(ac-set-trigger-key "TAB")
-;; auto-complete-mode を起動時に有効にする
-(global-auto-complete-mode t)
-;; coffee-mode を追加
-(add-to-list 'ac-modes 'coffee-mode)
-;; 自動補完を有効にする文字数
-(setq ac-auto-start 1)
-
-;;==============================
 ;; company-mode
 ;;==============================
 
 (require 'company)
+;;; 全バッファで有効にする 
+(global-company-mode) 
+(setq company-idle-delay 0)
 ;;; C-n, C-pで補完候補を選べるように
 (define-key company-active-map (kbd "M-n") nil)
 (define-key company-active-map (kbd "M-p") nil)
