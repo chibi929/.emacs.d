@@ -22,6 +22,9 @@
 (column-number-mode t)
 (setq-default fci-rule-column 120)
 
+;; Nyan
+(nyan-mode t)
+
 ;; 対応するカッコを強調表示
 (show-paren-mode t)
 

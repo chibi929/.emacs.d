@@ -35,3 +35,9 @@
 (define-key global-map (kbd "<s-down>")  'windmove-down)
 (define-key global-map (kbd "<s-up>")    'windmove-up)
 (define-key global-map (kbd "<s-right>") 'windmove-right)
+
+;;==============================
+;; switch-window
+;;==============================
+(setq switch-window-shortcut-style 'qwerty)
+(global-set-key (kbd "C-x o") 'switch-window)
