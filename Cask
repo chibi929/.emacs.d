@@ -9,7 +9,6 @@
 (depends-on "cask")
 (depends-on "company")
 (depends-on "company-go")
-(depends-on "company-tern")
 (depends-on "company-web")
 (depends-on "dash")
 (depends-on "drag-stuff")
