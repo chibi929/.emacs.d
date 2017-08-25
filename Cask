@@ -20,6 +20,8 @@
 (depends-on "gitignore-mode")
 (depends-on "go-eldoc")
 (depends-on "go-mode")
+(depends-on "helm")
+(depends-on "helm-gtags")
 (depends-on "htmlize")
 (depends-on "idle-highlight-mode")
 (depends-on "init-loader")

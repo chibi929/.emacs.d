@@ -7,3 +7,5 @@
 (cask-initialize)
 
 (init-loader-load "~/.emacs.d/inits/")
+(setenv "GTAGSLIBPATH" "/usr/include/")
+(put 'erase-buffer 'disabled nil)
