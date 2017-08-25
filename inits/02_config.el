@@ -11,8 +11,8 @@
 
 ;; タブ
 (setq-default indent-tabs-mode nil)
-(setq-default tab-width 4)
-(setq-default default-tab-width 4)
+(setq-default tab-width 2)
+(setq-default default-tab-width 2)
 
 ;; バックアップファイルを作らない
 (setq make-backup-files nil)

@@ -4,6 +4,7 @@
 
 (require 'company)
 ;;; 全バッファで有効にする 
+(global-company-mode) 
 (setq company-idle-delay 0)
 ;;; C-n, C-pで補完候補を選べるように
 (define-key company-active-map (kbd "M-n") nil)
